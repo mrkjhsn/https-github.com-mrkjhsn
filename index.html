@@ -5,10 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>⚡</title>
     <style>
+      html, body {
+        height: 100%; /* Ensure the body takes the full height */
+        margin: 0; /* Remove default margin */
+      }
+
       body {
-        font-family: 'lucida console', sans-serif;
-        font-size: 20px; /* Adjust this value to increase/decrease the overall text size */
-        max-width: 50%
+        display: flex; /* Use Flexbox */
+        flex-direction: column; /* Stack children vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        font-family: 'Courier New', sans-serif;
+        font-size: 24px; /* Overall text size */
+        padding: 20px; /* Add some padding */
+        text-align: center; /* Center the text */
       }
       /* Change the text to bold on hover */
       a:hover {
